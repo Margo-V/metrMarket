@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     $(".menuToggle").click(function() {
     $(this).toggleClass("active");
@@ -7,6 +8,7 @@ $(document).ready(function() {
         }
     });
     });
+
 });
 // $(function () {
 //     $('.menu-burger').click(function() {
