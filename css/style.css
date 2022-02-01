@@ -480,6 +480,49 @@ address{
 .footer-socials__item{
     font-size: 25px;
 }
+.footer-socials__item .icon-vk_alt:hover{
+    color:#2039a8;
+    box-shadow: 0px 0px 15px #2039a8;
+}
+.footer-socials__link{
+    line-height: 66px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 66px;
+    height: 66px;
+    text-align: center;
+    display: block;
+    flex-shrink: 1;
+    transition: all 1s ease;
+}
+.icon-vk_alt:hover::before{
+    color:#2039a8;
+    border: 1px solid #2039a8;
+    line-height: 66px;
+    border-radius: 50%;
+    width: 66px;
+    height: 66px;
+    text-align: center;
+    display: block;
+    flex-shrink: 1;
+    box-shadow: 0px 0px 25px #37478d;
+}
+.icon-instagram:hover::before{
+    color:#9e205b;
+    border: 1px solid #9e205b;
+    line-height: 66px;
+    border-radius: 50%;
+    width: 66px;
+    height: 66px;
+    text-align: center;
+    display: block;
+    flex-shrink: 1;
+    box-shadow: 0px 0px 25px #974271;
+}
+.icon-vk_alt:hover{
+    color:#2039a8;
+    box-shadow: 0px 0px 15px #2039a8;
+}
 .footer-socials__item:not(:last-child){
     margin-right: 40px;
 }
