@@ -350,6 +350,9 @@ img {
     font-size: 15px;
     font-weight: 400;
 }
+.form__input._error{
+    box-shadow: 0 0 15px red;
+}
 .form__button{
     max-width: 310px;
     width: 100%;
